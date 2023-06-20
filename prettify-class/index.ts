@@ -30,6 +30,7 @@ const enginnerOne: Enginner = {
 
 console.log("enginnerOne :>> ", enginnerOne);
 
+// Hover the frontend variable to see the result
 const frontend: Prettify<FrontendEnginner> = {
   name: "Kevin",
   title: "Intern",
