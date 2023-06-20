@@ -7,8 +7,6 @@ type Prettify<T> = {
   [P in keyof T]: T[P];
 } & {};
 
-console.log("prettify :>> ");
-
 const stranger: Person = {
   name: "Thang",
   age: 21,
